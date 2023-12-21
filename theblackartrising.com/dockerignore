@@ -1,0 +1,12 @@
+#Ignore the Dockerfile
+/var/www/Dockerfile
+
+
+#Ignoring the yml and txt files
+/var/www/azure-pipelines.yml
+/var/www/fortify-scan.yml
+/var/www/lighthouse-ally-scan.yml
+/var/www/eou.txt
+
+#Ignoring all the markdown and class files
+*.md 

@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Flocator","\u002F","\u002F40jinx"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

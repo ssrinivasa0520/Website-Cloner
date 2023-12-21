@@ -1,0 +1,5 @@
+*/5 * * * * /home/ec2-user/scripts/copyfiles_to_s3.sh yachak eidigital > /tmp/copyfiles_to_s3.log
+*/5 * * * * /home/ec2-user/scripts/copyfiles_to_s3.sh theblackartrising hellomonday > /tmp/copyfiles_to_s3.log
+
+
+*/10 * * * * /home/ec2-user/scripts/copycmscontent_to_s3.sh yachak-com eidigital uploads > /tmp/copycmscontent_to_s3.log

@@ -1,0 +1,15 @@
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: capncrunch-vs
+spec:
+  gateways:
+  - istio-gateway
+  hosts:
+  - capncrunch-com.wspuat.com
+  http:
+  - route:
+    - destination:
+        host: capncrunch-com.web-system.svc.cluster.local
+        port:
+          number: 80
