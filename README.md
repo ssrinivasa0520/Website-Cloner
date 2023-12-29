@@ -1,0 +1,1 @@
+I can clone original websites down to the finest detail using my software. This repository holds a few examples of cloned websites. Note: I do not own any of these websites, nor do I have access to them
